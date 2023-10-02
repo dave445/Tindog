@@ -1,24 +1,20 @@
 body{
    font-family: 'Montserrat';
-   scroll-behavior:auto;
+   text-align: center;
 }
-h1{
+h1, h2, h3, h4, h5, h6{
    font-family: 'Montserrat';
-   font-size: 3.5rem;
-   line-height: 1.5;
    font-weight: 900;
    
 }
 
 h2{
-   font-family: 'Montserrat';
    font-size: 3rem;
    line-height: 1.5;
    font-weight: 700;
 }
 
 h3{
-   font-family: 'Montserrat';
    font-weight: 600;
 }
 
@@ -26,12 +22,24 @@ p{
    color: #8F8F8F;
 }
 
-#title{
-    background-color: #ff4C68;
-    color: white;
+/* Headings */
+.big-heading{
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid{
+   padding: 7% 15%;
  }
- .container-fluid{
-   padding: 3% 15% 7%;
+
+ /* Sections */
+ .colored-section{
+   background-color: #ff4C68;
+   color: white;
+ }
+ .white-sections{
+   background-color: #FFF;
  }
 
  /* Navigation Bar */
@@ -60,6 +68,13 @@ p{
    margin: 5% 3% 5% 0;
 }
 
+ /* Title Section */
+
+#title .container-fluid{
+   padding: 3% 15% 7%;
+   text-align: left;
+}
+
 /* Title Image */
 
 .title-image{
@@ -72,13 +87,11 @@ p{
 /* Features Section */
 
 #features{
-   padding: 7% 15%;
    background-color: #FFF;
    position: relative;
 }
 
 .feature-box{
-   text-align: center;
    padding: 5%;
 }
 
@@ -94,9 +107,7 @@ p{
 /* Testimonial Section */
 
 #testimonials {
-   text-align: center;
    background-color: #EF8172;
-   color: white;
 }
 
 .testimonial-image{
@@ -105,13 +116,9 @@ p{
    margin: 20px;
 }
 
-.carousel-item{
-   padding: 7% 15%;
-}
 
 #press{
    background-color: #EF8172;
-   text-align: center;
    padding-bottom: 3%;
 }
 
@@ -124,7 +131,6 @@ p{
 
 #pricing{
    padding: 100px;
-   text-align: center;
 }
 
 .pricing-column{
@@ -145,12 +151,6 @@ p{
 
 /* Call to Action  */
 
-#cta{
-   background-color: #ff4C68;
-   text-align: center;
-   padding: 7% 15%;
-}
-
 .cta-heading{
    font-family: 'Montserrat';
    font-weight: 900;
@@ -164,7 +164,6 @@ p{
 #footer{
    background-color: #FFF;
    text-align: center;
-   padding: 7% 15%;
 }
 
 .social-icon{
